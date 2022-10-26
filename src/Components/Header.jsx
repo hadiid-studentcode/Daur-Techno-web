@@ -5,14 +5,14 @@ import sampah3 from "../Assets/img/products/thaiphirun-hul-oMyq9YjiZeE-unsplash.
 function Header() {
   return (
     <div>
-      <header class="bg-primary-gradient">
+      <header class="bg-primary-gradient mt-5">
         <div class="container pt-4 pt-xl-5">
           <div class="row pt-5">
             <div class="col-md-8 col-xl-6 text-center text-md-start mx-auto">
               <div class="text-center">
                 <p class="fw-bold text-success mb-2">Daur Techno Presents</p>
                 <h1 class="fw-bold">
-                  Green Eart Green Indonesia
+                  Green Earth Green Indonesia
                   <br />
                   Daur.co
                 </h1>
@@ -26,7 +26,7 @@ function Header() {
                     data-bss-parallax=""
                     data-bss-parallax-speed="0.8"
                     src={sampah1}
-                    alt ="sampah1"
+                    alt="sampah1"
                   />
                 </div>
                 <div className="sampah2">

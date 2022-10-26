@@ -11,6 +11,8 @@ import "./App.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
+    <link rel="icon" href="./Assets/img/brands/android-logo-12384.png" />
+    <title>ok</title>
     <Navbar />
     <Routes>
       <Route path="/" element={<App />}></Route>

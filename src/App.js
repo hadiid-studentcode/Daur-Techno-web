@@ -1,4 +1,5 @@
 import Contacts from "./Components/Contacts";
+import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Section1 from "./Components/Section1";
 import Section2 from "./Components/Section2";
@@ -13,6 +14,7 @@ function App() {
       <Section3 />
       <Section4 />
       <Contacts />
+      <Footer />
     </div>
   );
 }

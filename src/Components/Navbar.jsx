@@ -2,10 +2,11 @@ import {Link} from "react-router-dom";
 import logo from "../Assets/img/brands/logo-daurtechno.png";
 
 function Navbar() {
+  
   return (
-    <div>
+    <div className="container">
       <nav
-        class="navbar navbar-light navbar-expand-md sticky-top navbar-shrink py-3"
+        class="container navbar navbar-light navbar-expand-md sticky-top navbar-shrink py-0 position-fixed margin "
         id="mainNav"
       >
         <div class="container">
